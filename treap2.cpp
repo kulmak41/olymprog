@@ -19,7 +19,6 @@ ostream& operator<<(ostream& out, node* root) {
 	return out;
 }
 
-
 int size(node* v) {
 	return (v == nullptr ? 0 : v->size);
 }
